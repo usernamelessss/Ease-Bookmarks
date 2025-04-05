@@ -4,12 +4,12 @@
   --list-cols: 1;
   --list-rows: 10;
   --base-font-size: 14px;
-  --scrollbar-width: 3px;
+  --scrollbar-width: 4px;
   --direction-ratio: 1;
 
   /* 浅色模式 */
   --color-theme: #4db6ac;
-  --color-text: #232529;
+  --color-text: #15141a;
   --color-nav-text: #fff;
   --color-background: #fff;
   --color-border: #ddd;
@@ -32,7 +32,7 @@
   --color-hover: #455769;
   --color-scrollbar-thumb: #8ac;
   --color-textbox-border: #666;
-  --color-textbox-focus-border: #e29c45;
+  --color-textbox-focus-border: #8ac;
   --color-footer-background: #333;
   --color-mask-background: rgba(0, 0, 0, .48);
   /* 深色模式独有 */
@@ -49,7 +49,7 @@ body::-webkit-scrollbar {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 4px;
+  border-radius: 1px;
   background-color: var(--color-scrollbar-thumb);
 }
 ::selection {
